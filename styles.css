@@ -3,7 +3,7 @@
     /* Your styling */
     width: 40px;
     height: 40px;
-    border: 5px solid #ddd;
+    border: 5px solid black/*#ddd*/;
     border-top: 5px solid #3498db;
     border-radius: 50%;
     margin: 20px auto;
@@ -17,7 +17,7 @@
 
 /*country card*/
 .country-card {
-    background-color: white;
+    background-color: #ecf0f1;
     padding: 20px;
     margin: 20px auto;
     max-width: 500px;
@@ -28,7 +28,9 @@
 /*border grid*/
 .border-grid {
     display: grid; /* grid instead of flexbox*/
-    border-color: black;
+   /* border-color: black;
+    border-radius: 16px;
+    border-style: solid;*/
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 10px;
     margin: 20px;
