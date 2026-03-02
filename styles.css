@@ -1,0 +1,48 @@
+/*loading spinner*/
+.spinner {
+    /* Your styling */
+    width: 40px;
+    height: 40px;
+    border: 5px solid #ddd;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    margin: 20px auto;
+    animation: spin 1s linear infinite; /* Required */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/*country card*/
+.country-card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*border grid*/
+.border-grid {
+    display: grid; /* grid instead of flexbox*/
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin: 20px;
+}
+
+/*error styling*/
+.error {
+    color: red; /* this is the error colour*/
+    background-color: #ffe6e6;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/*hidden state*/
+.hidden {
+    display: none;
+}
